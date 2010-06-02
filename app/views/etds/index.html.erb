@@ -1,0 +1,18 @@
+<h1>Listing etds</h1>
+
+<table>
+  <tr>
+  </tr>
+
+<% for etd in @etds %>
+  <tr>
+    <td><%= link_to 'Show', etd %></td>
+    <td><%= link_to 'Edit', edit_etd_path(etd) %></td>
+    <td><%= link_to 'Destroy', etd, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New etd', new_etd_path %>

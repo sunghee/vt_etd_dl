@@ -1,0 +1,2 @@
+module EtdHelper
+end

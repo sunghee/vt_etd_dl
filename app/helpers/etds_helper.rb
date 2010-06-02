@@ -1,0 +1,2 @@
+module EtdsHelper
+end

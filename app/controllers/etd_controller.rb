@@ -1,0 +1,2 @@
+class EtdController < ApplicationController
+end
